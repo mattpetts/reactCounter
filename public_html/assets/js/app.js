@@ -21,7 +21,6 @@ var renderCounterApp = function renderCounterApp() {
         React.createElement(
             'h1',
             null,
-            'Count: ',
             count
         ),
         React.createElement(
@@ -32,7 +31,7 @@ var renderCounterApp = function renderCounterApp() {
         React.createElement(
             'button',
             { onClick: resetCount },
-            'reset'
+            'RESET'
         ),
         React.createElement(
             'button',

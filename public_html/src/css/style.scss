@@ -1,0 +1,33 @@
+$dark: #111111;
+$white: #FFFFFF;
+$font1: 'Oswald', sans-serif;
+
+body{
+  background-color: $dark;
+}
+#app{
+  width: 100%;
+  text-align: center;
+  h1{
+    color: $white;
+    font-family: $font1;
+    font-size: 100px
+  }
+  button{
+    background-color: $white;
+    color: $dark;
+    padding: 10px 20px;
+    border-radius: 0px;
+    font-family: $font1;
+    border:1px solid transparent;
+    margin: 20px;
+    transition: all .3s ease-in;
+    font-size: 40px;
+  }
+  button:hover{
+    border: $white 1px solid;
+    color: $white;
+    background-color: $dark;
+    cursor: pointer; 
+  }
+}
